@@ -6,7 +6,7 @@ import (
 
 func main() {
 	cli.ParseFlags()
-	cli.PrepareGreeting()
+	//cli.PrepareGreeting()
 
 	// Print version and other information and exit if the -version flag has been
 	// passed else we will start the HTTP server
